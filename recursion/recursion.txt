@@ -1,0 +1,7 @@
+A recursive function is one that calls itself to solve smaller instances of the same problem. 
+
+Recursion can consume significant memory, potentially leading to stack overflow errors.
+Each recursive call creates a stack frame in memory, which stores information about that specific function call (local variables, parameters, return address).
+
+Memoization: A technique to optimize recursive functions by manually implementing a caching system that stores previously computed results.
+Memoization prevents redundant calculations by saving and reusing the results of expensive function calls, significantly improving performance for problems with overlapping subproblems.
